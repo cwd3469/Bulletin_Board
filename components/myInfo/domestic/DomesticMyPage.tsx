@@ -57,9 +57,6 @@ const DomesticMyPage = () => {
                     </MyinfoTextBox>
                   </FlexStartC>
                 </Grid>
-                <Grid paddingTop="64px">
-                  <Footer />
-                </Grid>
               </>
             );
           }}

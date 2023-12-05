@@ -15,12 +15,13 @@ export default function GnbMyInfo(props: { disabled?: boolean }) {
 
   const gnbInfo = React.useCallback(() => {
     const nickname = userInfo ? userInfo.nameKo : '';
-    const name = '어디아파 약사 님';
+    const name = '게시판 약사 님';
     return { name, nickname };
   }, [userInfo])();
 
-  const [anchorEl, setAnchorEl] =
-    React.useState<HTMLButtonElement | null>(null);
+  const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(
+    null,
+  );
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);

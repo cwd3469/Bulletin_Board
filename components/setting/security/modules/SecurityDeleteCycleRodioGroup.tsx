@@ -41,7 +41,7 @@ const SecurityDeleteCycleRodioGroup = (props: SecurityRodioGroupType) => {
   };
   return (
     <FlexStartC gap="16px">
-      <WSubTitle title={'어디아파 개인정보 삭제 주기 설정 안내'} />
+      <WSubTitle title={'게시판 개인정보 삭제 주기 설정 안내'} />
       <Typography variant="body2" color="#404040" width="540px">
         회원님의 개인정보를 위하여 관련 법령에 따라 개인정보 삭제를 진행할
         예정입니다. 개인정보 삭제 주기 설정에 따라 진행합니다.

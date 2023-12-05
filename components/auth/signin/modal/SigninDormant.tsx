@@ -41,7 +41,7 @@ const SigninDormant = (props: ModalType) => {
             }}
           >
             <Typography color="#333" lineHeight="1.4" variant="body2">
-              회원님의 계정은 어디아파 약사 계정에 365일 이상
+              회원님의 계정은 게시판 약사 계정에 365일 이상
             </Typography>
             <Typography color="#333" lineHeight="1.4" variant="body2">
               로그인하지 않아 관련 법령에 따라 휴면 계정으로 전환하였습니다

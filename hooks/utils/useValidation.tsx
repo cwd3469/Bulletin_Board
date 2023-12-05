@@ -77,7 +77,7 @@ export class Validation {
     /** 사업자 등록증 정규식 */
     this.regExpBusinessNum = /^(\d{3})(\d{2})(\d{5})$/;
 
-    /** 진료비 입력 정규식 */
+    /** 비 입력 정규식 */
     this.regExpExpenses = /^[0-9,]{0,9}$/;
 
     /**거절 사유 한글 영어 숫자 20자*/

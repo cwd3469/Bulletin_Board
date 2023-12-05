@@ -41,7 +41,7 @@ const SigninDisable = (props: ModalType) => {
               <Box height="20px" />
               <Grid container gap="10px" alignItems={'center'}>
                 <Typography color="#4E4E4E" fontWeight={'100'} lineHeight="1.2">
-                  어디아파 고객센터
+                  게시판 고객센터
                 </Typography>
                 <Box height="14px" width="1px" bgcolor={'#CCC'} />
                 <Typography color="#000" lineHeight="1.2">

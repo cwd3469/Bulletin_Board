@@ -28,7 +28,7 @@ const HistoryFilter = () => {
         />
         <WSearchInput
           search={searchEvent}
-          placeholder="요청자 이름, 휴대폰번호, 병원 이름 검색"
+          placeholder="요청자 이름, 휴대폰번호,  이름 검색"
         />
       </Grid>
     </Grid>

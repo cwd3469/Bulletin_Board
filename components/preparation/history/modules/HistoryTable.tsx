@@ -184,19 +184,19 @@ const HistoryTable = (props: { data: HistoryInterface[] }): JSX.Element => {
     {
       ...baseOption,
       field: 'hospitalNameKo',
-      headerName: '진료 병원 명',
+      headerName: ' 이름',
       width: 122,
     },
     {
       ...baseOption,
       field: 'doctorNameKo',
-      headerName: '진료 병원 의사 명',
+      headerName: '  이름',
       width: 103,
     },
     {
       ...baseOption,
       field: 'hospitalPhoneNum',
-      headerName: '병원 연락처',
+      headerName: ' 연락처',
       width: 100,
     },
     {

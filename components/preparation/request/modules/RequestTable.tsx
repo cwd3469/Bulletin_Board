@@ -105,19 +105,19 @@ const RequestTable = (props: { data: RequestInterface[] }): JSX.Element => {
     {
       ...baseOption,
       field: 'hospitalNameKo',
-      headerName: '진료 병원 명',
+      headerName: ' 이름',
       width: 240,
     },
     {
       ...baseOption,
       field: 'doctorNameKo',
-      headerName: '진료 병원 의사 명',
+      headerName: '  이름',
       width: 120,
     },
     {
       ...baseOption,
       field: 'hospitalPhoneNum',
-      headerName: '병원 연락처',
+      headerName: ' 연락처',
       width: 150,
       renderCell: (prams) => {
         const num = prams.row.hospitalPhoneNum as string;

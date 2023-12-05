@@ -1,0 +1,73 @@
+{
+  "errorMsg": {
+    "msg": "",
+    "boo": false
+  },
+  "data": {
+    "id": "",
+    "email": "",
+    "pw": "",
+    "rePw": "",
+    "addressDetail": "",
+    "name": "",
+    "buisNum": "",
+    "pharmacyName": "",
+    "pharmacyAddress": "",
+    "pharmacyPhone": "",
+    "pharmacyFaxNum": "",
+    "businessLicense": null,
+    "pharmacistLicense": null,
+    "bankbookCopy": null
+  },
+  "errs": {
+    "idErr": {
+      "msg": "",
+      "boo": false
+    },
+    "emailErr": {
+      "msg": "",
+      "boo": false
+    },
+    "pwErr": {
+      "msg": "",
+      "boo": false
+    },
+    "rePwErr": {
+      "msg": "",
+      "boo": false
+    },
+    "addressDetailErr": {
+      "msg": "",
+      "boo": false
+    },
+    "nameErr": {
+      "msg": "",
+      "boo": false
+    },
+    "buisNumErr": {
+      "msg": "",
+      "boo": false
+    },
+    "pharmacyNameErr": {
+      "msg": "",
+      "boo": false
+    },
+    "pharmacyAddressErr": {
+      "msg": "",
+      "boo": false
+    },
+    "pharmacyPhoneErr": {
+      "msg": "",
+      "boo": false
+    },
+    "pharmacyFaxNumErr": {
+      "msg": "",
+      "boo": false
+    }
+  },
+  "busNum": {
+    "oneNum": "",
+    "twoNum": "",
+    "threeNum": ""
+  }
+}
